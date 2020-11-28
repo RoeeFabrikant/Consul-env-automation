@@ -1,4 +1,3 @@
-# WEB-SERVER OUTPUT
 
 output "agent_public_address" {
     value = aws_instance.ec2_agents.*.public_ip

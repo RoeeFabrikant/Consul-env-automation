@@ -23,3 +23,7 @@ output "rt_publicsub" {
 output "sg" {
     value = aws_security_group.sg.id
 }
+
+output "consul_iam_profile" {
+    value = aws_iam_role.consul-join.name
+}

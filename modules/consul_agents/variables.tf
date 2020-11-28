@@ -37,3 +37,7 @@ variable "public_sub_id" {
 variable "sg" {
   type = string
 }
+
+variable "iam" {
+  type = string
+}
